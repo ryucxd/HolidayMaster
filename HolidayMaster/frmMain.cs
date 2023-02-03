@@ -25,9 +25,8 @@ namespace HolidayMaster
             string EndMonth = "April_";
 
             currentMonth = CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(DateTime.Now.Month);
-
             int year = DateTime.Now.Year;
-            if (currentMonth.Contains("Januray") || currentMonth.Contains("Feburary") || currentMonth.Contains("March"))
+            if (currentMonth.Contains("January") || currentMonth.Contains("February") || currentMonth.Contains("March"))
             {
                 StartMonth = StartMonth + (year - 1).ToString();
                 EndMonth = EndMonth + year.ToString();
