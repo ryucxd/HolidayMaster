@@ -18,9 +18,11 @@ namespace HolidayMaster
             InitializeComponent();
 
             //shopfloor
-            string sql = "select u.forename + ' ' + u.surname from dbo.[aaa_holiday_master]  a left join [user_info].dbo.[user] u on a.staff_id = u.id where ShopFloor = -1  order by u.forename + ' ' + u.surname ";
+            //string sql = "select u.forename + ' ' + u.surname from dbo.[aaa_holiday_master]  a left join [user_info].dbo.[user] u on a.staff_id = u.id where ShopFloor = -1   order by u.forename + ' ' + u.surname ";
+            
             //office ver
-            //string sql = "select u.forename + ' ' + u.surname from dbo.[aaa_holiday_master]  a left join [user_info].dbo.[user] u on a.staff_id = u.id where (ShopFloor = 0 or ShopFloor is null)  order by u.forename + ' ' + u.surname ";
+            string sql = "select u.forename + ' ' + u.surname from dbo.[aaa_holiday_master]  a left join [user_info].dbo.[user] u on a.staff_id = u.id where [current] = 1 AND (ShopFloor = 0 or ShopFloor is null)  order by u.forename + ' ' + u.surname ";
+
             lblTitle.Text = "Office Holidays";
             using (SqlConnection conn = new SqlConnection(CONNECT.ConnectionString))
             {
