@@ -51,7 +51,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Window;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.ControlText;
@@ -61,13 +61,13 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersVisible = false;
-            this.dataGridView1.Size = new System.Drawing.Size(345, 656);
+            this.dataGridView1.Size = new System.Drawing.Size(363, 656);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.SelectionChanged += new System.EventHandler(this.dataGridView1_SelectionChanged);
             // 
             // lbl1
             // 
-            this.lbl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.lbl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl1.Location = new System.Drawing.Point(-1, 45);
             this.lbl1.Name = "lbl1";
             this.lbl1.Size = new System.Drawing.Size(315, 22);
@@ -77,7 +77,7 @@
             // 
             // lbl3
             // 
-            this.lbl3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.lbl3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl3.Location = new System.Drawing.Point(-1, 117);
             this.lbl3.Name = "lbl3";
             this.lbl3.Size = new System.Drawing.Size(315, 22);
@@ -87,7 +87,7 @@
             // 
             // lbl2
             // 
-            this.lbl2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.lbl2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl2.Location = new System.Drawing.Point(127, 81);
             this.lbl2.Name = "lbl2";
             this.lbl2.Size = new System.Drawing.Size(187, 22);
@@ -97,7 +97,7 @@
             // 
             // lblStart
             // 
-            this.lblStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.lblStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStart.Location = new System.Drawing.Point(310, 45);
             this.lblStart.Name = "lblStart";
             this.lblStart.Size = new System.Drawing.Size(58, 22);
@@ -107,7 +107,7 @@
             // 
             // lblEnd
             // 
-            this.lblEnd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.lblEnd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEnd.Location = new System.Drawing.Point(310, 117);
             this.lblEnd.Name = "lblEnd";
             this.lblEnd.Size = new System.Drawing.Size(58, 22);
@@ -117,7 +117,7 @@
             // 
             // lblCurrent
             // 
-            this.lblCurrent.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.lblCurrent.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCurrent.Location = new System.Drawing.Point(310, 81);
             this.lblCurrent.Name = "lblCurrent";
             this.lblCurrent.Size = new System.Drawing.Size(58, 22);
@@ -127,10 +127,10 @@
             // 
             // lblTitle
             // 
-            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.25F);
+            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.Location = new System.Drawing.Point(13, 3);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(345, 36);
+            this.lblTitle.Size = new System.Drawing.Size(362, 36);
             this.lblTitle.TabIndex = 7;
             this.lblTitle.Text = "0";
             this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -141,7 +141,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
             this.label1.Location = new System.Drawing.Point(12, 141);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(345, 22);
+            this.label1.Size = new System.Drawing.Size(363, 22);
             this.label1.TabIndex = 8;
             this.label1.Text = "Green = in the past";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -150,7 +150,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(371, 834);
+            this.ClientSize = new System.Drawing.Size(387, 834);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.lblCurrent);
